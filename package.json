@@ -1,0 +1,13 @@
+{
+    "name": "unconfig-test",
+    "type": "module",
+    "scripts": {
+        "run:node": "node ./index.ts",
+        "run:node-22": "node --experimental-strip-types ./index.ts",
+        "run:deno": "deno --allow-all ./index.ts",
+        "run:bun": "bun ./index.ts"
+    },
+    "dependencies": {
+        "unconfig": "^7.0.0"
+    }
+}
